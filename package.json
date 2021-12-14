@@ -1,0 +1,22 @@
+{
+  "name": "jstack-mycontacts",
+  "version": "1.0.0",
+  "description": "JStack first project",
+  "main": "src/index.js",
+  "author": "Mateus José Barbosa",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.3",
+    "nodemon": "2.0.15"
+  }
+}
